@@ -1,1 +1,8 @@
-CS229 is a Stanford course about machine Learning. It tackles wide parts of ML making a excellent introduction course. We can divide the course to five parts : Supervised Learning, Unsupervised Learning, Reinforcement Learning, Deep Learning and Learning theory. 
+CS229 is a Stanford course about machine Learning. It tackles wide parts of ML making a excellent introduction course.
+We can divide the course to five parts : Supervised Learning, Unsupervised Learning, Reinforcement Learning, Deep Learning and Learning theory.
+
+This course covers most of supervised learning famous algoritms : linear regression, logistic regression and the family of generalized learning algorithms(GLA).
+It moves then to generative learning algorithms, especially Discriminant Gaussian..., and Naive Bayes. It covers also Decision trees and ensemble methods 
+(boostrapping, bagging, boosting). Theses techniques produce some famous algorithms (Random Forest, Gradient Boost, AdaBoost).
+And let's not forget SVM (support vector machines), and a chapter about the kernel trick that is mostly used with SVM.
+
