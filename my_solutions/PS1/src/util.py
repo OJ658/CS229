@@ -31,7 +31,7 @@ def load_dataset(csv_path, label_col='y', add_intercept=False):
         ys: Numpy array of y-values (labels).
     """
 
-    def add_intercept_fn(x):
+    def add_intercept_fn(x): 
         global add_intercept
         return add_intercept(x)
 

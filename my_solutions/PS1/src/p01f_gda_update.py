@@ -23,15 +23,12 @@ def main(train_path, eval_path, pred_path):
     # plot the dataset and the boudary decision
     new_theta = np.zeros(x_train.shape[1]+1)
     new_theta[1 : ] = gda.theta
-    new_theta[0] = gda.theta_0
-    util.plot(x_train, y_train, new_theta, 'output/p01e_{}.png'.format(pred_path[-5]))
-     
+    new_theta[0] = gda.theta_0     
 
     # predict the model
     x_eval, y_eval = util.load_dataset(eval_path, add_intercept=False)
     y = gda.predict(x_eval)
-
-    np.savetxt(pred_path, y > 0.5, fmt = "%d")
+    y_pred = y > 0.5
 
  
     # *** END CODE HERE ***
